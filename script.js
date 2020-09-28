@@ -1,0 +1,18 @@
+$(".minion-1-pic").click(function(){
+   $(".secret-message").show();
+});
+$(".secret-message").dblclick(function(){
+   $(".minion-1-pic").hide("slow");
+   $(".minion-2-pic").show("slow");
+   $(".secret-message").hide("slow");
+});
+$(".minion-2-pic").mouseenter(function(){
+   $(".minion-2-pic").hide("slow");
+});
+$(".minion-2-pic").mouseleave(function(){
+   $(".minion-3-pic").show("slow");
+});
+$(".minion-3-pic").hover(function(){
+    $(".minion-3-pic").hide("slow");
+   $(".minion-4-pic").show("slow");
+});
